@@ -18,7 +18,7 @@ $feed->handle_content_type();
 </head>
 <body>
   
-  <h1><a href="http://treypiepmeier.com">Trey Piepmeier</a>'s [Solutions Log](https://github.com/trey/solutions-gist)</h1>
+  <h1><a href="http://treypiepmeier.com">Trey Piepmeier</a>'s <a href="https://github.com/trey/solutions-gist">Solutions Log</a></h1>
 
   <?php foreach ($feed->get_items() as $item): ?>
     <?php $title = htmlentities(preg_replace('/— Gist/', '', $item->get_title())); ?>
