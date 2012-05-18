@@ -1,6 +1,6 @@
 body { padding: 10px 50px; color: #aaa; }
 a, a:visited { color: #666;  text-decoration: none;  }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: underline; color: blue; }
 ul { list-style: none; padding: 0; }
 li { margin-bottom: 15px; }
 li a { background: #f0f0f0; padding: 3px; }
@@ -9,3 +9,4 @@ h1 { color: #666; }
 h1 a { border-bottom: 1px dashed #cfcfcf; padding-bottom: 2px; }
 h1 a:hover { text-decoration: none; border-color: #aaa; }
 a.rss { color: #E92; font-size: 10px; font-weight: normal; background: #ffedb9; padding: 2px; border: 0; }
+a.rss:hover { color: #fff; background: #E92; }
