@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+# no www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^2010/02/28/installing-mysql-on-snow-leopard-using-homebrew/$ https://gist.github.com/2722782 [R=301,L]
+RewriteRule ^2009/02/25/installing-getbundles-on-a-fresh-copy-of-textmate/$ https://gist.github.com/2722805 [R=301,L]
+RewriteRule ^2008/12/01/optimizing-a-website-for-iphone/$ https://gist.github.com/2722882 [R=301,L]
+RewriteRule ^2008/02/26/installing-django-on-os-x-leopard/$ https://gist.github.com/2596149 [R=301,L]
+RewriteRule ^2008/02/25/installing-git-on-os-x-leopard/$ https://gist.github.com/2722851 [R=301,L]
+
+ErrorDocument 404 /404.php
