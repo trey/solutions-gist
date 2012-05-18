@@ -2,7 +2,7 @@
 date_default_timezone_set('America/Chicago');
 require_once('../simplepie.inc');
 $feed = new SimplePie();
-$feed->set_feed_url('http://feeds.pinboard.in/rss/secret%3Ad2eb5ef4f7bb90a90d31/u%3Atrey/t%3Asolutions/');
+$feed->set_feed_url('http://feeds.pinboard.in/rss/u:trey/t:solutions/');
 $feed->init();
 $feed->handle_content_type();
 ?><!doctype html>
