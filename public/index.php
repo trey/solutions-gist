@@ -21,14 +21,12 @@ $feed->handle_content_type();
   
   <h1><a href="http://treypiepmeier.com">Trey Piepmeier</a>'s <a href="https://github.com/trey/solutions-gist">Solutions Log</a> <a class="rss" href="http://feeds.pinboard.in/rss/u:trey/t:solutions/">RSS</a></h1>
 
+  <ul>
   <?php foreach ($feed->get_items() as $item): ?>
     <?php $title = htmlentities(preg_replace('/— Gist/', '', $item->get_title())); ?>
-    
-    <ul>
-      <li><a href="<?php echo $item->get_permalink(); ?>"><?php echo $title; ?></a> <span class="date"><?php echo $item->get_date('F j, Y'); ?></span></li>
-    </ul>
-
+    <li><a href="<?php echo $item->get_permalink(); ?>"><?php echo $title; ?></a> <span class="date"><?php echo $item->get_date('F j, Y'); ?></span></li>
   <?php endforeach; ?>
+  </ul>
 
   <?php require_once('../_tracking.php'); ?>
 </body>
