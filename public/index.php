@@ -13,12 +13,13 @@ $feed->handle_content_type();
   <title>Trey Piepmeier's Solutions Log</title>
   <meta name="description" content="Solutions to little development problems. Welcome, Google visitor.">
   <meta name="viewport" content="width=device-width">
+  <link rel="alternate" type="application/rss+xml" title="Pinboard RSS feed for trey/solutions" href="http://feeds.pinboard.in/rss/u:trey/t:solutions/">
   <link rel="stylesheet" href="/css/html5bp.css">
   <link rel="stylesheet" href="/css/solutions.css">
 </head>
 <body>
   
-  <h1><a href="http://treypiepmeier.com">Trey Piepmeier</a>'s <a href="https://github.com/trey/solutions-gist">Solutions Log</a></h1>
+  <h1><a href="http://treypiepmeier.com">Trey Piepmeier</a>'s <a href="https://github.com/trey/solutions-gist">Solutions Log</a> <a class="rss" href="http://feeds.pinboard.in/rss/u:trey/t:solutions/">RSS</a></h1>
 
   <?php foreach ($feed->get_items() as $item): ?>
     <?php $title = htmlentities(preg_replace('/— Gist/', '', $item->get_title())); ?>
