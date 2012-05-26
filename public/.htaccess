@@ -5,6 +5,7 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
+RewriteRule ^2010/12/27/install-and-use-django-mysql-and-virtualenv-on-snow-leopard/ https://gist.github.com/2596149 [R=301,L]
 RewriteRule ^2010/02/28/installing-mysql-on-snow-leopard-using-homebrew/$ https://gist.github.com/2722782 [R=301,L]
 RewriteRule ^2009/12/02/smart-url-redirects-in-django/$ https://gist.github.com/2774991 [R=301,L]
 RewriteRule ^2009/03/09/a-happy-git-environment-on-osx-leopard/$ https://gist.github.com/2722934 [R=301,L]
