@@ -2,7 +2,8 @@ Options +FollowSymLinks
 RewriteEngine on
 
 RewriteRule ^2011/01/dont-clutter-your-desktop/$ https://gist.github.com/2821494 [R=301,L]
-RewriteRule ^2010/12/27/install-and-use-django-mysql-and-virtualenv-on-snow-leopard/ https://gist.github.com/2596149 [R=301,L]
+RewriteRule ^2010/12/27/install-and-use-django-mysql-and-virtualenv-on-snow-leopard/$ https://gist.github.com/2596149 [R=301,L]
+RewriteRule ^2010/06/create-a-javascript-object-with-overwrite-able-settings/$ https://gist.github.com/2833884 [R=301,L]
 RewriteRule ^2010/02/28/installing-mysql-on-snow-leopard-using-homebrew/$ https://gist.github.com/2722782 [R=301,L]
 RewriteRule ^2010/02/22/using-dropbox-to-share-git-repositories/$ https://gist.github.com/2722927 [R=301,L]
 RewriteRule ^2009/12/02/smart-url-redirects-in-django/$ https://gist.github.com/2774991 [R=301,L]
