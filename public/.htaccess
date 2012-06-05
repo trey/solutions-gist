@@ -1,6 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine on
 
+RewriteRule ^2011/04/28/using-external-files-as-jquery-templates/$ https://gist.github.com/2722910 [R=301,L]
 RewriteRule ^2011/01/dont-clutter-your-desktop/$ https://gist.github.com/2821494 [R=301,L]
 RewriteRule ^2010/12/27/install-and-use-django-mysql-and-virtualenv-on-snow-leopard/$ https://gist.github.com/2596149 [R=301,L]
 RewriteRule ^2010/06/create-a-javascript-object-with-overwrite-able-settings/$ https://gist.github.com/2833884 [R=301,L]
