@@ -9,12 +9,16 @@ RewriteRule ^2010/06/create-a-javascript-object-with-overwrite-able-settings/$ h
 RewriteRule ^2010/02/28/installing-mysql-on-snow-leopard-using-homebrew/$ https://gist.github.com/2722782 [R=301,L]
 RewriteRule ^2010/02/22/using-dropbox-to-share-git-repositories/$ https://gist.github.com/2722927 [R=301,L]
 RewriteRule ^2009/12/02/smart-url-redirects-in-django/$ https://gist.github.com/2774991 [R=301,L]
+RewriteRule ^2009/07/17/my-git-workflow/$ https://gist.github.com/2722930 [R=301,L]
 RewriteRule ^2009/03/09/a-happy-git-environment-on-osx-leopard/$ https://gist.github.com/2722934 [R=301,L]
+RewriteRule ^2009/03/03/virtual-hosts-on-osx-leopard/$ https://gist.github.com/2722954 [R=301,L]
 RewriteRule ^2009/02/25/installing-getbundles-on-a-fresh-copy-of-textmate/$ https://gist.github.com/2722805 [R=301,L]
 RewriteRule ^2008/12/01/optimizing-a-website-for-iphone/$ https://gist.github.com/2722882 [R=301,L]
 RewriteRule ^2008/09/28/use-django-fixtures-to-automatically-load-data-when-you-install-an-app/$ https://gist.github.com/2818751 [R=301,L]
 RewriteRule ^2008/03/10/use-djangos-permalink-decorator-with-generic-views/$ https://gist.github.com/2775049 [R=301,L]
+RewriteRule ^2008/03/use-djangos-permalink-decorator-with-generic-views/$ https://gist.github.com/2775049 [R=301,L]
 RewriteRule ^2008/02/26/installing-django-on-os-x-leopard/$ https://gist.github.com/2596149 [R=301,L]
 RewriteRule ^2008/02/25/installing-git-on-os-x-leopard/$ https://gist.github.com/2722851 [R=301,L]
+RewriteRule ^2007/05/22/transfer-a-domain-name/$ https://gist.github.com/2722980 [R=301,L]
 
 ErrorDocument 404 /404.php

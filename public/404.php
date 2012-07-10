@@ -13,7 +13,7 @@
   
   <h1>Sorry. Couldn't find that. :(</h1>
 
-  <p>I recently cleaned out a bunch of old Solutions Log posts that were as old as the hills.</p>
+  <p>I&rsquo;ve cleaned out a bunch of old Solutions Log posts that were as old as the hills.</p>
   <p>See <a href="/">what's fresh</a>.</p>
 
   <?php require_once('../_tracking.php'); ?>
