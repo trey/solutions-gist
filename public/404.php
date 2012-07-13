@@ -6,6 +6,8 @@
   <title>Page not found. :( &mdash; Trey Piepmeier's Solutions Log</title>
   <meta name="description" content="Solutions to little development problems. Welcome, Google visitor.">
   <meta name="viewport" content="width=device-width">
+  <link rel="alternate" type="application/rss+xml" title="Pinboard RSS feed for trey/solutions" href="http://feeds.pinboard.in/rss/u:trey/t:solutions/">
+  <link rel="shortcut icon" href="/favicon.png">
   <link rel="stylesheet" href="/css/html5bp.css">
   <link rel="stylesheet" href="/css/solutions.css">
 </head>
