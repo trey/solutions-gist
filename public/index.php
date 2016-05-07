@@ -19,7 +19,7 @@ $feed->handle_content_type();
   <link rel="stylesheet" href="/css/solutions.css">
 </head>
 <body>
-  
+
   <h1><a href="http://treypiepmeier.com">Trey Piepmeier</a>'s <a href="https://github.com/trey/solutions-gist">Solutions Log</a> <a class="rss" href="http://feeds.pinboard.in/rss/u:trey/t:solutions/">RSS</a></h1>
 
   <ul>
@@ -29,6 +29,18 @@ $feed->handle_content_type();
   <?php endforeach; ?>
   </ul>
 
-  <?php require_once('../_tracking.php'); ?>
+  <script>
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '4e36125f613f5d557e000001');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
 </body>
 </html>
